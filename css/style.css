@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__container {
+  height: 100vh;
+
+  width: 100vw;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-content: center;
+  position: relative;
+}
+
+.left {
+  /*position: absolute;
+  left: 0;
+  text-align: center;
+  top: 20%;*/
+  flex: 50%;
+  height: 100vh;
+  padding-top: 10%;
+}
+
+.left .container {
+  padding-left: 30%;
+
+  font-size: 1vw;
+}
+
+.left h2 {
+  font-weight: 400;
+  text-align: justify;
+  width: 400px;
+  margin-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  height: 100px;
+  width: 350px;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.right {
+  /* position: absolute;
+  right: 15%;
+  top: 35%;*/
+  flex: 50%;
+
+  height: 100vh;
+}
+
+form {
+  /*position: absolute;
+  top: 0;
+  right: 0%;
+  margin: auto 0;*/
+  position: absolute;
+  top: 20%;
+
+  padding: 1em;
+  right: 10%;
+  margin: auto 0;
+  /*transform: translate(-50%, 50%);*/
+  background-color: #fff;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 4px 7px 5px 0px rgba(146, 141, 141, 0.55);
+  text-align: center;
+  width: fit-content;
+}
+
+form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 2%;
+  padding: 4%;
+}
+
+form input[type="password"] {
+  margin-top: 20px;
+}
+form input:focus {
+  border: 2px solid #187ff2;
+}
+
+form button {
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  font-size: 17px;
+}
+form .login {
+  width: 100%;
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+
+  border-radius: 5px;
+  background-color: #187ff2;
+}
+
+form > p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form a {
+  text-decoration: none;
+  color: #187ff2;
+  font-weight: 400;
+}
+
+form .new__acc {
+  background-color: #42b72a;
+  width: 50%;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.right .container p {
+  text-align: center;
+}
+.last_link{
+  text-align: center !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  margin-top: 60% !important;
+  padding-left: 20px;
+
+}
