@@ -51,3 +51,11 @@ form {
 border-color: grey;
 border-bottom: 5px;
 }
+footer{
+    margin-top: 5rem !important;
+    text-decoration: underline !important;
+    text-align: left !important;
+    background-color: #fff;
+    font-weight:bold;
+    height: 40vh!important;
+  }
